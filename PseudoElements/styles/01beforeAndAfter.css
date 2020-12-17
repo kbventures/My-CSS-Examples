@@ -1,0 +1,18 @@
+p::before {
+  content: '* ';
+}
+
+span.comment::before {
+  content: 'Comment: ';
+  color: blue;
+}
+
+.buzz::after {
+  content: ' - Buzz Lightyear';
+  color: blue;
+}
+
+.yoda::after {
+  content: ' - Yoda';
+  color: green;
+}
